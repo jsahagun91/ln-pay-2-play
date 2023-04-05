@@ -23,10 +23,6 @@ function Paywall() {
     }
   }, [payment, navigate, state]);
 
-  const navigateHome = () => {
-    navigate("/");
-  };
-
   const managePayment = async () => {
     const webln = await requestProvider();
     const payment = await webln.sendPayment(invoice);
@@ -59,7 +55,7 @@ function Paywall() {
           <h1>¡Viva Bitcoin!</h1>
         </div>
         <div className="paywallText">
-          ⚡️ Pay 25 sats to read Snake 🐍
+          ⚡️ Pay 25 sats to play Snake 🐍
         </div>
       </div>
       <div className="buttonLayout">
