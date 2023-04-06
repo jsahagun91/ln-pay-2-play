@@ -30,7 +30,7 @@ function Paywall() {
   };
 
   const fetchInvoice = async () => {
-    const apiKey = "6d7b331b1fc847cd9d42bfb63593bdde";
+    const apiKey = "679fb640965a4b978af0916529ef9d4a";
     const data = `{"out": false, "amount": 25, "memo": "Pay 25 sats to play Snake", "unit": "sat", "webhook": "", "internal": false}`;
     const getInvoice = {
       method: "POST",
