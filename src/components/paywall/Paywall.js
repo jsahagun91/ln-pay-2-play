@@ -5,6 +5,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 function Paywall() {
+
   const [invoice, setInvoice] = useState("");
   const [payment, setPayment] = useState("");
   let navigate = useNavigate();
